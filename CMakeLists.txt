@@ -750,6 +750,8 @@ source_group("modules\\math" FILES ${LOVE_SRC_MODULE_MATH})
 set(LOVE_SRC_MODULE_LOVE
 	src/modules/love/love.cpp
 	src/modules/love/love.h
+	src/modules/love/wrap_love_dll.cpp
+	src/modules/love/wrap_love_dll.h
 )
 
 source_group("modules\\love" FILES ${LOVE_SRC_MODULE_LOVE})
